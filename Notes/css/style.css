@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(251, 219, 196);
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: orange;
+    width: 270px;
+    height: 270px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
