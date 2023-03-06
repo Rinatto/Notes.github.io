@@ -8,7 +8,7 @@ body {
 .card {
     background-color: orange;
     width: 245px;
-    height: 260px;
+    height: 290px;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -22,6 +22,7 @@ label {
 }
 textarea {
     border-radius: 5px;
+    resize: none;
 }
 .button {
     width: 170px;
@@ -37,5 +38,6 @@ textarea {
 }
 .button-delete {
     margin-left: 35px;
+    margin-top: 5px;
 }
 
