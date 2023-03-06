@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +8,21 @@
     <title>Notes app</title>
 </head>
 <body>
-    <h1>Notes app</h1>
-    <button class="create_Note">Create Note</button>
+    <div class="cap">
+        <h1>Notes app</h1>
+        <button class="create_Note button">Добавить заметку</button>
+    </div>
     <div class="main">
         <div class="card">
-            <textarea name="" id="" cols="30" rows="2">Заметка №1</textarea>
-            <textarea name="" id="" cols="30" rows="10">1. Не забыть сделать Английский язык.
+            <label for="name">Название заметки:</label>
+            <textarea name="name" id="areaName" cols="30" rows="2">Заметка №1</textarea>
+            <label for="text">Текст:</label>
+            <textarea name="text" id="area" cols="30" rows="10">1. Не забыть сделать Английский язык.
 2. Проверить счета на оплату.
 3. Посмотреть сайт о велопрогулках.
             </textarea>
-            <button>Edit note</button>
-            <button class="delete_Note">Delete note</button>
+            <!--<button>Редактировать заметку</button>-->
+            <button class = "delete_Note_first button button-delete">Удалить заметку</button>
         </div>
     </div> 
 
